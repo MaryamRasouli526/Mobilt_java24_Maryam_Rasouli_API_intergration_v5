@@ -33,11 +33,10 @@ WeatherApp är en Androidapplikation utvecklad med **Android Studio 16 “Bakala
 ## Appens utseende
 
 1.Börja med att ansluta telefonen till wifi.  Här visas UI för MainFragment för att starta väderappen:
+![IMG_0909](https://github.com/user-attachments/assets/073b316a-d144-44ff-9cb5-3ce96c2f6cbd)
 
-![IMG_0909](https://github.com/user-attachments/assets/3f25e683-3824-4507-82dd-5bcb1f3d974a)
 
 
-![IMG_0910](https://github.com/user-attachments/assets/01f7efc7-74bd-4fdd-93f5-24a20c8c7d80)
 
 
 
