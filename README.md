@@ -28,29 +28,29 @@ WeatherApp är en Androidapplikation utvecklad med **Android Studio 16 “Bakala
 
 ## Appens utseende
 
-1. Här visas UI för MainFragment för att starta väderappen:
+1. UI för MainFragment för att starta väderappen:
 
 ![IMG_0909](https://github.com/user-attachments/assets/073b316a-d144-44ff-9cb5-3ce96c2f6cbd)
 
 
-2. I Fragment1 (Menu)  till Fragment2(Create temp/vind) eller Fragment3(Current weather/list):
+2. Fragment1(Menu) till Fragment2(Create temp/vind) eller Fragment3(Current weather/list):
 
   ![IMG_0910](https://github.com/user-attachments/assets/0aa7a82f-cef8-4dc7-94bd-ca9a97c9602b)
 
 
 
-4. I Fragment2 kan du skapa väderlistor beroende på vilken län du befinner dig i som sparas i firestore. Här syns vädret också:
+4. Fragment2 kan du skapa väderlistor beroende på vilken län du befinner dig i som sparas i firestore. Här syns vädret också:
 
   ![IMG_0912](https://github.com/user-attachments/assets/14048e47-001b-4471-a69b-43229b2c904f)
 
-6. I Fragment3 visas bland annat aktuella vädret för platsen man befinner sig på. Beroende på tempraturen ändras bilden (sol, mol, snö och osv):
+6. Fragment3 visas bland annat aktuella vädret för platsen man befinner sig på. Beroende på tempraturen ändras bilden (sol, mol, snö och osv):
 
-- Det är låg temperatur i Naimakka därför visas snö:
+- Låg temperatur i Naimakka därför visas snö:
 
 ![IMG_0913 (1)](https://github.com/user-attachments/assets/499d62f1-c212-4798-8751-29f6105a3349)
 
 
-- Det är medeltempratur i Malmö därför visas moln:
+- Medeltempratur i Malmö därför visas moln:
 
   ![IMG_0918](https://github.com/user-attachments/assets/30e5038f-256c-43f9-8079-89746bd80bcd)
 
