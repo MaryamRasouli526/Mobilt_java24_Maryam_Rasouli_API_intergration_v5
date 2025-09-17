@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "489863070922",
+    "project_id": "api-intergration-v5",
+    "storage_bucket": "api-intergration-v5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:489863070922:android:ebcc323a6e48b59e316033",
+        "android_client_info": {
+          "package_name": "se.gritacademy.maryam.rasouli.malmo.api_intergration_v5"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrQQNUDr3nOSqrtDZgNa0ItCQEC_FSI9s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

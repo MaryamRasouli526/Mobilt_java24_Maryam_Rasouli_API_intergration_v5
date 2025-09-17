@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="se.gritacademy.maryam.rasouli.malmo.api_intergration_v5.MainFragment"
+        android:label="MainFragment">
+        <action
+            android:id="@+id/action_main_to_fragment1"
+            app:destination="@id/fragment1" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment1"
+        android:name="se.gritacademy.maryam.rasouli.malmo.api_intergration_v5.Fragment1"
+        android:label="Fragment1">
+        <action
+            android:id="@+id/action_fragment1_to_fragment2"
+            app:destination="@id/fragment2" />
+        <action
+            android:id="@+id/action_fragment1_to_fragment3"
+            app:destination="@id/fragment3" />
+        <action
+            android:id="@+id/action_fragment1_to_main"
+            app:destination="@id/mainFragment"
+            app:popUpTo="@id/mainFragment"
+            app:popUpToInclusive="true" /> <!-- One-way back to home -->
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment2"
+        android:name="se.gritacademy.maryam.rasouli.malmo.api_intergration_v5.Fragment2"
+        android:label="Fragment2">
+        <action
+            android:id="@+id/action_fragment2_to_fragment1"
+            app:destination="@id/fragment1" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment3"
+        android:name="se.gritacademy.maryam.rasouli.malmo.api_intergration_v5.Fragment3"
+        android:label="Fragment3">
+        <action
+            android:id="@+id/action_fragment3_to_fragment1"
+            app:destination="@id/fragment1" />
+    </fragment>
+
+</navigation>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment1_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="#8BCC66">
+
+    <!-- Vänster sida: Text och knappar -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tvFragment1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Main"
+            android:textSize="26sp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:id="@+id/buttonToFragment2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create temp/wind"
+            android:textColor="@android:color/white"
+            android:background="@drawable/button_custom"
+            android:layout_marginTop="8dp"
+            android:padding="12dp"
+            android:textSize="16sp"/>
+
+        <Button
+            android:id="@+id/buttonToFragment3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Current weather/list"
+            android:textColor="@android:color/white"
+            android:background="@drawable/button_custom"
+            android:layout_marginTop="8dp"
+            android:padding="12dp"
+            android:textSize="16sp"/>
+
+        <Button
+            android:id="@+id/buttonBackToMain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back to Main"
+            android:textColor="@android:color/white"
+            android:background="@drawable/button_custom"
+            android:layout_marginTop="16dp"
+            android:padding="12dp"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <!-- Höger sida: dekorativ ImageView -->
+    <ImageView
+        android:id="@+id/ivFragment1Image"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_sun"/>
+</LinearLayout>
