@@ -23,8 +23,11 @@ WeatherApp är en Androidapplikation utvecklad med **Android Studio 16 “Bakala
 - **Firebase Firestore** används för lagring av väderdata.
 - **Apk-fil** För att sedan installera appen. Finns i min repository.  
 - Appen har notifikationskanaler för vädervarningar.  
-- Kräver internet-, notifikation- och platspermission:  
- 
+- Kräver internet-, notifikation- och platspermission 
+
+ Länkt till Firestore Database: 
+ https://console.firebase.google.com/project/api-intergration-v5/firestore/databases/-default-/data/~2Fweather_entries~2F0mEVQ25xEmlb3tJsFMQe
+
 
 ## Appens utseende
 
