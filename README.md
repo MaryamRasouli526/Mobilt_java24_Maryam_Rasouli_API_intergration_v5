@@ -20,7 +20,8 @@ WeatherApp är en Androidapplikation utvecklad med **Android Studio 16 “Bakala
 - **Fake GPS** App som går att ladda ner i Play Butik och som används för att testa olika platser
 - **Retrofit + Gson** används för API-anrop.  
 - **Coroutines** används för asynkrona nätverksoperationer.  
-- **Firebase Firestore** används för lagring av väderdata.  
+- **Firebase Firestore** används för lagring av väderdata.
+- **Apk-fil** För att sedan installera appen. Finns i min repository.  
 - Appen har notifikationskanaler för vädervarningar.  
 - Kräver internet-, notifikation- och platspermission:  
  
