@@ -47,12 +47,46 @@ WeatherApp är en Androidapplikation utvecklad med **Android Studio 16 “Bakala
 
 
 4. I Fragment2 kan du skapa väderlistor beroende på vilken län du befinner dig i som sparas i firestore. Här syns vädret också:
-5. I Fragment3  visas aktuella vädret(tempratur och vind) för platsen man befinner sig i och beroende på tempraturen ändras bilden (sol, mol, snö och så vidare). listas väderdata 
+
+  ![IMG_0912](https://github.com/user-attachments/assets/14048e47-001b-4471-a69b-43229b2c904f)
+
+6. I Fragment3  visas aktuella vädret(tempratur och vind) för platsen man befinner sig i och beroende på tempraturen ändras bilden (sol, mol, snö och så vidare). listas väderdata:
+
+- Det är låg temperatur i Naimakka därför visas snö:
+
+![IMG_0913](https://github.com/user-attachments/assets/5053837a-7191-4c43-82d0-503d2ae2cb50)
+
+- Det är medeltempratur i Malmö därför visas moln:
+  ![IMG_0918](https://github.com/user-attachments/assets/30e5038f-256c-43f9-8079-89746bd80bcd)
+
+  
+
+- Genom appen Fake GPS kunde jag testa olika platser:
+![IMG_0916](https://github.com/user-attachments/assets/7e69b335-921b-43a5-958e-35476cafc0e5)
+
+![IMG_0917](https://github.com/user-attachments/assets/edf0974b-42fd-47ad-b9c6-0d0dce865edd)
 
 
- 6. Visar notifkationen om tempratur mindre är 10 grader celsius
-  7. Du kan testa gå tillbaka
-  8. Landscape
+
+8. Här visas notifkationen om tempratur mindre är 10 grader celsius - Det är kallt:
+   ![IMG_0915](https://github.com/user-attachments/assets/a80e9c64-8a8b-4473-8726-71a647c2dbb7)
+
+    
+10. Du kan testa gå tillbaka i appen genom knapptryck (Backstack med navsystem - one way back)
+      
+12. Här Landscape för fragments:
+
+Fragment1:
+
+![IMG_0911](https://github.com/user-attachments/assets/cad978e1-d006-4052-8d1a-ed5fc0f951af)
+
+Fragment2:
+![IMG_0919](https://github.com/user-attachments/assets/8a925f58-9e67-4aeb-8254-919f2f15a409)
+
+
+Fragment3:
+![IMG_0914](https://github.com/user-attachments/assets/0e562f19-4192-47c8-a39e-aa6195520bef)
+
   
 
 
