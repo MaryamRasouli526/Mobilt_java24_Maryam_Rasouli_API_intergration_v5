@@ -33,12 +33,11 @@ WeatherApp är en Androidapplikation utvecklad med **Android Studio 16 “Bakala
 ## Appens utseende
 
 1.Börja med att ansluta telefonen till wifi.  Här visas UI för MainFragment för att starta väderappen:
-![IMG_0910](https://github.com/user-attachments/assets/eac10c2e-3534-4d2a-b23a-e393898820bb)
+![IMG_0910](https://github.com/user-attachments/assets/01f7efc7-74bd-4fdd-93f5-24a20c8c7d80)
 
 
 
 2. I Fragment1 finns knappar att gå till Fragment2 och Fragment3:
-  ![IMG_0909](https://github.com/user-attachments/assets/a3f4f29e-c7f6-44f2-8d4c-43a00bd6398c)
 
 
 4. I Fragment2 kan du skapa väderlistor beroende på vilken län du befinner dig i som sparas i firestore. Här syns vädret också:
