@@ -9,7 +9,7 @@ WeatherApp är en Androidapplikation utvecklad med **Android Studio 16 “Bakala
 
 ## Funktioner
 
-- **Fragment 1 / MainFragment:** Startskärm med navigering genom knapptryck vidare till de andra fragments.  
+- **Fragment 1 / MainFragment:** Startskärm med navigering.  
 - **Fragment 2:** Skapa listor med temperatur- eller vinddata baserat på användarens plats. Data sparas i **Firestore** och visas i UI.  
 - **Fragment 3:** Visar listor med tidigare poster och ändrar bild beroende på vädret
 - Navigering mellan fragment är implementerad med **Android Navigation Component** med även stöd för telefonens egna backstack och knapptryck.
@@ -17,22 +17,17 @@ WeatherApp är en Androidapplikation utvecklad med **Android Studio 16 “Bakala
 ---
 
 ## Tekniska detaljer
-- **Fake GPS** App som går att ladda ner i Play Butik och som används för att testa att hämta vädret från olika platser
+- **Fake GPS** App som går att ladda ner i Play Butik och som används för att testa olika platser
 - **Retrofit + Gson** används för API-anrop.  
 - **Coroutines** används för asynkrona nätverksoperationer.  
 - **Firebase Firestore** används för lagring av väderdata.  
 - Appen har notifikationskanaler för vädervarningar.  
 - Kräver internet-, notifikation- och platspermission:  
-  ```xml
-  <uses-permission android:name="android.permission.INTERNET" />
-  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-  <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
-  <uses-permission android:name="android.permission.INTERNET" />
+ 
 
 ## Appens utseende
 
-1.Börja med att ansluta telefonen till wifi.  Här visas UI för MainFragment för att starta väderappen:
+1.Anslut telefonen till wifi. Här visas UI för MainFragment för att starta väderappen:
 
 ![IMG_0909](https://github.com/user-attachments/assets/073b316a-d144-44ff-9cb5-3ce96c2f6cbd)
 
@@ -41,7 +36,7 @@ WeatherApp är en Androidapplikation utvecklad med **Android Studio 16 “Bakala
 
 
 
-2. I Fragment1 (Menu) finns knappar att gå till Fragment2(Create temp/vind) och Fragment3 (Current weather/list):
+2. I Fragment1 (Menu)  till Fragment2(Create temp/vind) eller Fragment3 (Current weather/list):
   ![IMG_0910](https://github.com/user-attachments/assets/0aa7a82f-cef8-4dc7-94bd-ca9a97c9602b)
 
 
@@ -50,7 +45,7 @@ WeatherApp är en Androidapplikation utvecklad med **Android Studio 16 “Bakala
 
   ![IMG_0912](https://github.com/user-attachments/assets/14048e47-001b-4471-a69b-43229b2c904f)
 
-6. I Fragment3 listas även här väderdata från firestore. Här visas aktuella vädret(tempratur och vind) för platsen man befinner sig i. Men beroende på tempraturen ändras bilden (sol, mol, snö och så vidare):
+6. I Fragment3 visas bland annat aktuella vädret(tempratur och vind) för platsen man befinner sig i. Men beroende på tempraturen ändras bilden (sol, mol, snö och osv):
 
 - Det är låg temperatur i Naimakka därför visas snö:
 
@@ -71,14 +66,14 @@ WeatherApp är en Androidapplikation utvecklad med **Android Studio 16 “Bakala
 
 
 
-8. Här visas notifkationen om tempratur mindre är 10 grader celsius - Det är kallt:
+8. Här visas notifkationen om tempratur mindre är 10 grader - Det är kallt:
 
  ![IMG_0915](https://github.com/user-attachments/assets/a80e9c64-8a8b-4473-8726-71a647c2dbb7)
 
     
-10. Du kan testa gå tillbaka i appen genom knapptryck (Backstack med navsystem - one way back)
+10. Gå tillbaka i appen genom knapptryck (Backstack med navsystem - one way back)
       
-12. Här Landscape för fragments:
+12. Landscape för fragments:
 
 Fragment1:
 
