@@ -54,14 +54,17 @@ WeatherApp är en Androidapplikation utvecklad med **Android Studio 16 “Bakala
 
 - Det är låg temperatur i Naimakka därför visas snö:
 
-![IMG_0913](https://github.com/user-attachments/assets/5053837a-7191-4c43-82d0-503d2ae2cb50)
+![IMG_0913 (1)](https://github.com/user-attachments/assets/499d62f1-c212-4798-8751-29f6105a3349)
+
 
 - Det är medeltempratur i Malmö därför visas moln:
+
   ![IMG_0918](https://github.com/user-attachments/assets/30e5038f-256c-43f9-8079-89746bd80bcd)
 
   
 
 - Genom appen Fake GPS kunde jag testa olika platser:
+
 ![IMG_0916](https://github.com/user-attachments/assets/7e69b335-921b-43a5-958e-35476cafc0e5)
 
 ![IMG_0917](https://github.com/user-attachments/assets/edf0974b-42fd-47ad-b9c6-0d0dce865edd)
@@ -69,7 +72,8 @@ WeatherApp är en Androidapplikation utvecklad med **Android Studio 16 “Bakala
 
 
 8. Här visas notifkationen om tempratur mindre är 10 grader celsius - Det är kallt:
-   ![IMG_0915](https://github.com/user-attachments/assets/a80e9c64-8a8b-4473-8726-71a647c2dbb7)
+
+ ![IMG_0915](https://github.com/user-attachments/assets/a80e9c64-8a8b-4473-8726-71a647c2dbb7)
 
     
 10. Du kan testa gå tillbaka i appen genom knapptryck (Backstack med navsystem - one way back)
@@ -81,10 +85,12 @@ Fragment1:
 ![IMG_0911](https://github.com/user-attachments/assets/cad978e1-d006-4052-8d1a-ed5fc0f951af)
 
 Fragment2:
+
 ![IMG_0919](https://github.com/user-attachments/assets/8a925f58-9e67-4aeb-8254-919f2f15a409)
 
 
 Fragment3:
+
 ![IMG_0914](https://github.com/user-attachments/assets/0e562f19-4192-47c8-a39e-aa6195520bef)
 
   
