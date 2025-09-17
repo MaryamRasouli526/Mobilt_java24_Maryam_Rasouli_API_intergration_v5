@@ -50,7 +50,7 @@ WeatherApp är en Androidapplikation utvecklad med **Android Studio 16 “Bakala
 
   ![IMG_0912](https://github.com/user-attachments/assets/14048e47-001b-4471-a69b-43229b2c904f)
 
-6. I Fragment3  visas aktuella vädret(tempratur och vind) för platsen man befinner sig i och beroende på tempraturen ändras bilden (sol, mol, snö och så vidare). listas väderdata:
+6. I Fragment3 listas även här väderdata från firestore. Här visas aktuella vädret(tempratur och vind) för platsen man befinner sig i. Men beroende på tempraturen ändras bilden (sol, mol, snö och så vidare):
 
 - Det är låg temperatur i Naimakka därför visas snö:
 
