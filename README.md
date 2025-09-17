@@ -33,11 +33,8 @@ WeatherApp är en Androidapplikation utvecklad med **Android Studio 16 “Bakala
 ![IMG_0909](https://github.com/user-attachments/assets/073b316a-d144-44ff-9cb5-3ce96c2f6cbd)
 
 
-
-
-
-
 2. I Fragment1 (Menu)  till Fragment2(Create temp/vind) eller Fragment3 (Current weather/list):
+
   ![IMG_0910](https://github.com/user-attachments/assets/0aa7a82f-cef8-4dc7-94bd-ca9a97c9602b)
 
 
@@ -46,7 +43,7 @@ WeatherApp är en Androidapplikation utvecklad med **Android Studio 16 “Bakala
 
   ![IMG_0912](https://github.com/user-attachments/assets/14048e47-001b-4471-a69b-43229b2c904f)
 
-6. I Fragment3 visas bland annat aktuella vädret(tempratur och vind) för platsen man befinner sig i. Men beroende på tempraturen ändras bilden (sol, mol, snö och osv):
+6. I Fragment3 visas bland annat aktuella vädret för platsen man befinner sig på. Men beroende på tempraturen ändras bilden (sol, mol, snö och osv):
 
 - Det är låg temperatur i Naimakka därför visas snö:
 
@@ -67,14 +64,13 @@ WeatherApp är en Androidapplikation utvecklad med **Android Studio 16 “Bakala
 
 
 
-8. Här visas notifkationen om tempratur mindre är 10 grader - Det är kallt:
+8. Notifkationen om tempratur mindre är 10 grader - Det är kallt:
 
  ![IMG_0915](https://github.com/user-attachments/assets/a80e9c64-8a8b-4473-8726-71a647c2dbb7)
 
-    
-10. Gå tillbaka i appen genom knapptryck (Backstack med navsystem - one way back)
+
       
-12. Landscape för fragments:
+9. Landscape för fragments:
 
 Fragment1:
 
